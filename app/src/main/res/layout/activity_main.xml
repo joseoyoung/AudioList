@@ -33,6 +33,11 @@
             android:layout_height="wrap_content"
             android:text="Play"/>
         <Button
+            android:id="@+id/but_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause"/>
+        <Button
             android:id="@+id/but_stop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
