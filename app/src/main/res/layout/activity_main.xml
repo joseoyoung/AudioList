@@ -47,20 +47,24 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
         android:layout_marginLeft="20dp"
         >
         <TextView
             android:id="@+id/text_music"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Playing music"/>
-        <ProgressBar
-            android:id="@+id/progress_music"
+            android:text="Playing music : "/>
+        <TextView
+            android:id="@+id/text_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="invisible"
+            android:text="Playing time : "/>
+        <SeekBar
+            android:id="@+id/progress_music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             />
     </LinearLayout>
 
